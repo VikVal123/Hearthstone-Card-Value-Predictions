@@ -1,6 +1,6 @@
 #Example #1
 
-#When, opening files we also need to close them
+#When, opening files we also need to close them.
 
 #f = open('filename', 'r')
 
