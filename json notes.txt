@@ -1,0 +1,40 @@
+JSON notes:
+1. In Python you can convert JASON data to python objects;
+2. 
+
+____________________________________________________________
+
+Read Before workng json
+____________________________________________________________
+
+#Example #1
+
+#When opening files we also need to close them.
+
+f = open('filename', 'r')
+
+print(f.name) 
+#Name will only print out the file name. 
+#Instead of name you can use mode. Mode will show you
+#mode that the files is currently open with. In this 
+#situaton it would be r that stand for read.
+
+f.close()
+
+#Example #2
+
+#If we open a file as per above it is important to 
+#explicitly close the file. If you forget to close the
+#file it will only get you unecessary errors. By using 
+#context manager we can easily avoid this with "with".
+#This method allows us to work with files within a
+#block of code. Once it is done it will it will automaticaly
+#close the block of code once used.
+
+
+
+
+r = read file
+a = append file
+r+ = read and append file
+
