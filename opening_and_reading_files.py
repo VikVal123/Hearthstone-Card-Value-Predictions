@@ -84,17 +84,17 @@
 #file by running f.read twice and add f.seek(0). It will set our
 #position to the begining of the file.
 
-with open('json notes.txt', 'r') as f:
+# with open('json notes.txt', 'r') as f:
 
-    size_to_read = 10
+#     size_to_read = 10
 
-    f_contents = f.read(size_to_read)
-    print(f_contents, end='')
+#     f_contents = f.read(size_to_read)
+#     print(f_contents, end='')
 
-    f.seek(0)
+#     f.seek(0)
 
-    f_contents = f.read(size_to_read)
-    print(f_contents)
+#     f_contents = f.read(size_to_read)
+#     print(f_contents)
 
 
  
