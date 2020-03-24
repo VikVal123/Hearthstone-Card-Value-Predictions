@@ -7,7 +7,6 @@ source = requests.get('https://www.hearthpwn.com/cards?filter-include-card-text=
 
 soup = BeautifulSoup(source, 'lxml')
 
-
 for card in soup.find_all('td'):
     cards = card.text
     print(cards)
