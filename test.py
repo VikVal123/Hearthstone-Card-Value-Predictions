@@ -1,4 +1,4 @@
-# coding: utf-8
+# coding: utf-8 aaa
 import pandas as pd
 pd.read_excel(C:\Users\viktoras.valiokas\Desktop\Python projects\Hearthstone-Card-Value-Predictions\cards.xlsx)
 pd.read_excel(cards.xlsx)
