@@ -1,4 +1,4 @@
-import json
+`import json
 import pandas
 from pandas.io.json import json_normalize
 
@@ -9,7 +9,9 @@ from pandas.io.json import json_normalize
 
 with open('cards.json', 'r', encoding='utf-8') as f:
     raw_data = json.load(f)
-    data = pandas.json_normalize(raw_data)
+    df = pandas.json_normalize(raw_data)
 
-print(data[['id', 'name', 'cost', 'text', 'attack', 'health', 
-'cardClass', 'mechanics', 'rarity', 'set', 'type']])
+# print(data[['id', 'name', 'cost', 'text', 'attack', 'health', 
+# 'cardClass', 'mechanics', 'rarity', 'set', 'type']])
+
+df.to_excel("cards.xlsx")`
